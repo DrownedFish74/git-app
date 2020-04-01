@@ -1,7 +1,7 @@
 class ArticlesController < ApplicationController
   before_action :set_article, only: [:show, :edit, :update, :destroy]
 
-
+#master branch編集実験
   def index
     @articles = Article.all
   end
